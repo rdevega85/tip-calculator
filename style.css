@@ -1,0 +1,35 @@
+#div1 {
+    position: absolute;
+    left: 0;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+    background: url(https://media.giphy.com/media/BHNfhgU63qrks/giphy.gif) 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    font-family: 'Play', sans- width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.header {
+    font-family: 'Paytone One', sans-serif;
+    color: #EFEDE6;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.calcstyle {
+    font-family: 'Paytone One', sans-serif;
+    color: black;
+    text-shadow: 2px 2px 4px #EFEDE6;
+    font-size: 21px;
+}

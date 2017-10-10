@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Paytone+One" rel="stylesheet">
+    <title>Tip Calculation</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="div1">
+            <div>
+                <h1 class="header">Tip Calculator</h1>
+                <div class="calcstyle">Dinner Amt:
+                    <input type="text" id="damt"> </div>
+                <br />
+                <div class="calcstyle">Tip %:
+                    <input type="text" id="tip">
+                </div>
+                <br />
+                <div class="calcstyle">
+                    <input type="button" class="btn btn-info opacity: 0.2" value="Calculate" onclick="dinneramt = parseFloat(document.getElementById('damt').value);
+							tip_percent = parseFloat(document.getElementById('tip').value);
+							tipamt = dinneramt * tip_percent / 100;
+							totalamt = dinneramt + tipamt;
+							document.getElementById('tamt').value = tipamt;
+            document.getElementById('total').value = totalamt; ">
+                </div>
+                <br />
+                <div class="calcstyle">Tip Amt:
+                    <input type="text" id="tamt">
+                </div>
+                <br />
+                <div class="calcstyle">Total:
+                    <input type="text" id="total">
+                </div>
+
+            </div>
+        </div>
+</body>
+
+</html>
